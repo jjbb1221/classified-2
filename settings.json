@@ -1,9 +1,8 @@
 {
-  "token" : "MjkwMDQ4MjM2NjU4NjIyNDY0.DDbMFw.cevp2wuY43TavO2KJTK2jxHg-HM (don't waste your time, lmao)",
-  "tmdbKey" : "bfbda859283f82c2083f9575cd8943ec",
-  "prefix" : "&",
-  "muterole" : "Muted",
-  "modrole":  "Mods",
-  "adminrole" : "GalaxyADMIN",
-  "ownerid" : "255750690784149504"
+  "token" : "TOKEN", 
+  "prefix" : ";", 
+  "muterole" : "MUTED", 
+  "modrole": "MODS", 
+  "adminrole" : "ADMIN", 
+  "ownerid" : "372091741123248139"
 }

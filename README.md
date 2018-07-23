@@ -1,37 +1,65 @@
-## Welcome to GitHub Pages
+#Kosh Systems
 
-You can use the [editor on GitHub](https://github.com/jjbb1221/classified-2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Thank you for using Kosh Systems!
+Created by RedstoneClaw101 and Lil Curly,
+Kosh Systems provides moderation and fun for 
+your Discord server.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#Configuration
 
-### Markdown
+These are important and must be completed
+for the bot to work in your server.
+To recieve these instructions on Discord,
+type ;setup in DM's with the bot.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1) Ping
 
-```markdown
-Syntax highlighted code block
+To check the bots Ping, simply run ;ping. If the bot is offline, we are updating it. If the bot is online but does not respond try reinviting it. If this does not work, join the support server at the end of this page.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+2) Roles and Permissions
 
-1. Numbered
-2. List
+To give your admins bot admin, you will need the following roles:
 
-**Bold** and _Italic_ and `Code` text
+MOD - For server mods
 
-[Link](url) and ![Image](src)
-```
+ADMIN - For server admins
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+OWNER - For server owners
 
-### Jekyll Themes
+Everyone with the @everyone role will get fun commands and music access.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jjbb1221/classified-2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+3) Join/ Leave Messages [OPTIONAL]
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+To set up a custom join channel, run ;join in the desired channel.
+To set up a custom leave channel, run ;leave in the desired channel.
+
+Once that is done we need to configure the message.
+For join, run ;joinmessage (message here)
+
+EXAMPLE: ;joinmessage Welcome $user to $server. 
+
+For leave, run ;leavemessage (message here)
+
+EXAMPLE: ;leavemessage Bye $user
+
+4) Loggin Channel
+
+Simply go to the channel you want to show mod logs and run ;modlogs
+
+#Finishing Up
+
+Congratulations! You have set up Kosh Systems.
+Try it out by running ;cmds in the channel.
+
+Thanks for using Kosh Systems.
+Please donate or purchase premium to support us and unlock special privileges!
+
+Donation Link:
+
+Premium Link:
+
+Support Server: 
+
+    

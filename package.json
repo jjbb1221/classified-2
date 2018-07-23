@@ -1,67 +1,34 @@
 {
-    "name": "Kosh Systems",
-    "description": "The perfect moderation and fun Discord bot.",
-    "version": "0.1.1",
-    "author": "RedstoneClaw101 and Lil Curly",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/jjbb1221/classified-2.git"
-    },
-    "license": "GPL v2",
-    "dependencies": {
-        "bing-translate": "*",
-        "body-parser": "*",
-        "compression": ">=1.6.0",
-        "connect-mongo": ">=1.3.0",
-        "convert-units": ">=1.0",
-        "cookie-parser": "*",
-        "ejs": ">=1.0.0",
-        "eris": "abalabahaha/eris#dev",
-        "express-rate-limit": ">=2.5.0",
-        "express-session": ">=1.14",
-        "fast-levenshtein": "*",
-        "feed-read": "*",
-        "bluebird": "*",
-        "bufferutil": "*",
-        "domain": "*",
-        "eventemitter3": "*",
-        "express": ">=4.0.0",
-        "goo.gl": "*",
-        "google": ">=2.0",
-        "google-play-scraper": ">=3.1.2",
-        "imgur-node-api": ">=0.1.0",
-        "mathjs": ">=3.0",
-        "moment": ">=2.0",
-        "money": "*",
-        "mongoose": ">=4.5.0",
-        "mongoose-findorcreate": ">=0.1.2",
-        "node-base64-image": ">=1.0.1",
-        "object-sizeof": ">=1.0",
-        "parse-duration": "*",
-        "passport": ">=0.3.2",
-        "passport-discord": ">=0.1.1",
-        "passport.socketio": "*",
-        "random-puppy": "*",
-        "require-reload": ">=0.2.2",
-        "remove-markdown": "*",
-        "searchitunes": "*",
-        "showdown": "*",
-        "socket.io": ">=1.4.0",
-        "text-diff": ">=1.0",
-        "unirest": "*",
-        "urban": ">=0.3",
-        "vm2": ">=3.1.0",
-        "weather-js": ">=1.0",
-        "wikijs": ">=1.1.0",
-        "winston": "*",
-        "wolfram-node": "*",
-        "write-file-atomic": ">=1.2.0",
-        "xml-parser": "*",
-        "xss-filters": ">=1.2.0",
-        "youtube-node": ">=1.3.0"
-    },
-    "scripts": {
-       "start": "node bot.js --production"
-    },
-    "main": "bot.js"
+  "name": "galaxy",
+  "version": "1.0.0",
+  "description": "A discord bot",
+  "main": "bot.js",
+  "engines": {
+    "node": "8.1.4",
+    "npm" : "5.3.0"
+  },
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "discord.js": "^11.0.0",
+    "kitsu.js": "^1.1.1",
+    "prettyconsole": "^1.0.0",
+    "request": "^2.79.0",
+    "return-deep-diff": "^0.2.7",
+    "snekfetch": "^3.2.4",
+    "table": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HasanBrandsXD/GalaxyBOT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HasanBrandsXD/GalaxyBOT/issues"
+  },
+  "homepage": "https://github.com/HasanBrandsXD/GalaxyBOT#readme"
 }

@@ -5,19 +5,17 @@ const yellow = '#FFD700';
 
 exports.run = function(client, message, args) {
   var embed = new Discord.RichEmbed();
-  embed.setTitle('About Galaxy')
-  embed.setDescription('Hi. I am **GalaxyBOT**, I am here to entertain, moderate and make your Discord more easier and reliable. My commands can be viewed by the **_&cmds_** command. \nHere are some examples of my Fun-Commands: \n:8ball: Interactive 8ball \n:robot: CleverBot/talk \n:rosette: Fun slots. \n\nOr even **Moderation**. \n-Kick \n-Mute \n-Ban \n-Moderation logs \nLock-down and more!');
+  embed.setTitle('About Kosh')
+  embed.setDescription('Kosh Systems is a moderation and fun Discord bot. Run ;invite for an invite.');
   embed.setColor('008000');
-  embed.setThumbnail('https://cdn.discordapp.com/attachments/279965137908137986/300962159373058048/thPPL7H8TZ.jpg')
   embed.addField('Uptime in mili-seconds', `${client.uptime}`);
-  embed.addField('Discriminator', 4924);
-  embed.addField('Users <3', `${client.users.size}`)
-  embed.addField('Channels (galaxies <3)', `${client.channels.size}`)
+  embed.addField('Created by RedstoneClaw101 & Lil Curly');
+  embed.addField('Users', `${client.users.size}`)
+  embed.addField('Channels', `${client.channels.size}`)
   embed.addField('Shard(s)', '[object Object]')
-  embed.addField('Commands', '29 -- API usen 5. ')
-  embed.addField(':copyright: Mariott Marquis Bots 2016-17. All right reserved.', 'This is a :star: Mariott Bot and it is copyrighted to HasanBrandsXD#4120 with the association of JW Mariott Marquis Bots.')
-  embed.addField('Made in Dubai, United Arab Emirates', 'Locations are subject to copyright.')
-  embed.setFooter('Galaxy Status')
+  embed.addField('Commands', '29')
+  embed.addField('Kosh Systems™ 2018-22. All right reserved.')
+  embed.setFooter('Kosh Systems')
   embed.setTimestamp()
 
   message.channel.sendEmbed(embed);

@@ -6,7 +6,7 @@ const yellow = '#FFD700';
 exports.run = function(client, message, args) {
   var embed = new Discord.RichEmbed();
   embed.setTitle('Viewing support server; Updated')
-  embed.setDescription('Invite link : https://discord.gg/fZEcqgE');
+  embed.setDescription('Invite link : https://discord.gg/5Vb7sXM');
   embed.setColor('#FF0000')
 
   message.author.sendEmbed(embed);

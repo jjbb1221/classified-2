@@ -5,7 +5,7 @@
 	"main": "bot.js", 
 	"engines": { 
 		"node": "8.1.4", 
-		"npm" : "5.3.0" 
+		"npm" : "5.7.1" 
 		}, 
 	"dependencies": { 
 		"chalk": "^2.0.1", 

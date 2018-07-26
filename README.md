@@ -36,6 +36,7 @@ To set up a custom join channel, run ;join in the desired channel.
 To set up a custom leave channel, run ;leave in the desired channel.
 
 Once that is done we need to configure the message.
+
 For join, run ;joinmessage (message here)
 
 EXAMPLE: ;joinmessage Welcome $user to $server. 

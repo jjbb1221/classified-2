@@ -1,1 +1,1 @@
-worked: node bot.js
+web: npm run forever

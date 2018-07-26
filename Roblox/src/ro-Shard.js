@@ -1,6 +1,6 @@
 // This file is the entry point for Shard processes.
 
-const config = require('./data/client.json')
+const config = require('./data/ro-client.json')
 const DiscordBot = require('./DiscordBot')
 
 // Instantiate the bot.

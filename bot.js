@@ -55,4 +55,4 @@ client.on('error', e => {
   console.log(e);
 });
 
-client.login(config.token);
+client.login(process.env.TOKEN);

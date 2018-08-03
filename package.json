@@ -1,5 +1,5 @@
 { 
-	"name": "Kosh Systems", 
+	"name": "Kosh", 
 	"version": "2.0.0", 
 	"description": "The perfect fun and moderation bot.", 
 	"main": "bot.js", 
